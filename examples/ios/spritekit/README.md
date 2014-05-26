@@ -1,3 +1,0 @@
-# SHORYUKEN!
-
-![shoryuken](./demo.gif)

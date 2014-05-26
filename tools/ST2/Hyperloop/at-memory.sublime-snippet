@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[@memory(${1:/* integer size */});]]></content>
-  <tabTrigger>@memory</tabTrigger>
-  <scope>source.hyperloop</scope>
-  <description>@memory</description>
-</snippet>
