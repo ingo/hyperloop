@@ -12,12 +12,12 @@ Hyperloop is a next-generation compiler that converts JavaScript source code int
 
 This is the umbrella project for Hyperloop.  There is no actual source code in this repository.  Please check out the following sub repositories:
 
-- [Hyperloop CLI](https://github.com/appcelerator/hyperloop-cli) - the Hyperloop command line [![Build Status](https://travis-ci.org/appcelerator/hyperloop-cli.svg)](https://travis-ci.org/appcelerator/hyperloop-cli)
-- [Hyperloop Common](https://github.com/appcelerator/hyperloop-common) - the Hyperloop common library [![Build Status](https://travis-ci.org/appcelerator/hyperloop-common.svg)](https://travis-ci.org/appcelerator/hyperloop-common)
-- [Hyperloop iOS](https://github.com/appcelerator/hyperloop-ios) - the Hyperloop iOS backend [![Build Status](https://travis-ci.org/appcelerator/hyperloop-ios.svg)](https://travis-ci.org/appcelerator/hyperloop-ios)
-- [Hyperloop Java](https://github.com/appcelerator/hyperloop-java) - the Hyperloop Java backend [![Build Status](https://travis-ci.org/appcelerator/hyperloop-java.svg)](https://travis-ci.org/appcelerator/hyperloop-java)
-- [Hyperloop Android](https://github.com/appcelerator/hyperloop-android) - the Hyperloop Android backend [![Build Status](https://travis-ci.org/appcelerator/hyperloop-android.svg)](https://travis-ci.org/appcelerator/hyperloop-android)
-- [Hyperloop Windows](https://github.com/appcelerator/hyperloop-windows) - the Hyperloop Windows backend [![Build Status](https://travis-ci.org/appcelerator/hyperloop-windows.svg)](https://travis-ci.org/appcelerator/hyperloop-windows)
+- [![Build Status](https://travis-ci.org/appcelerator/hyperloop-cli.svg)](https://travis-ci.org/appcelerator/hyperloop-cli) [Hyperloop CLI](https://github.com/appcelerator/hyperloop-cli) - the Hyperloop command line 
+- [![Build Status](https://travis-ci.org/appcelerator/hyperloop-common.svg)](https://travis-ci.org/appcelerator/hyperloop-common) [Hyperloop Common](https://github.com/appcelerator/hyperloop-common) - the Hyperloop common library 
+- [![Build Status](https://travis-ci.org/appcelerator/hyperloop-ios.svg)](https://travis-ci.org/appcelerator/hyperloop-ios) [Hyperloop iOS](https://github.com/appcelerator/hyperloop-ios) - the Hyperloop iOS backend 
+- [![Build Status](https://travis-ci.org/appcelerator/hyperloop-java.svg)](https://travis-ci.org/appcelerator/hyperloop-java) [Hyperloop Java](https://github.com/appcelerator/hyperloop-java) - the Hyperloop Java backend 
+- [![Build Status](https://travis-ci.org/appcelerator/hyperloop-android.svg)](https://travis-ci.org/appcelerator/hyperloop-android) [Hyperloop Android](https://github.com/appcelerator/hyperloop-android) - the Hyperloop Android backend 
+- [![Build Status](https://travis-ci.org/appcelerator/hyperloop-windows.svg)](https://travis-ci.org/appcelerator/hyperloop-windows) [Hyperloop Windows](https://github.com/appcelerator/hyperloop-windows) - the Hyperloop Windows backend 
 
 
 ## Documentation & Community
