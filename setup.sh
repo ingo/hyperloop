@@ -28,7 +28,7 @@ function project()
 		git pull
 	else
 		colorize $YELLOW "Fetching ${MAGENTA}hyperloop-$1$GRAY"
-		${PREFIX}-$1
+		${PREFIX}-$1.git
 		colorize $RESET ""
 		cd hyperloop-$1
 	fi
@@ -38,9 +38,27 @@ function project()
 	colorize $RESET ""
 }
 
-project "cli"
 project "common"
+
+if [ ! -d "node_modules/hyperloop-common" ]; then
+	mkdir node_modules 2>/dev/null
+	cd node_modules
+	ln -s ../hyperloop-common
+	cd $CWD
+fi
+
+project "cli"
+
 project "java"
+
+if [ ! -d "node_modules/hyperloop-java" ]; then
+	mkdir node_modules 2>/dev/null
+	cd node_modules
+	ln -s ../hyperloop-java
+	cd $CWD
+fi
+
 project "android"
+
 project "ios"
 #project "windows"
