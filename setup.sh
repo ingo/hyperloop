@@ -34,6 +34,8 @@ function project()
 	fi
 	colorize $YELLOW "updating NPM libraries for ${MAGENTA}hyperloop-$1$GRAY"
 	result=`npm install 2>&1`
+	rm -rf node_modules/hyperloop-common
+	rm -rf node_modules/hyperloop-java
 	cd $CWD
 	colorize $RESET ""
 }
@@ -61,4 +63,4 @@ fi
 project "android"
 
 project "ios"
-#project "windows"
+project "windows"
